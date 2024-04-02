@@ -2,7 +2,7 @@ void main() {
   emitNumber()
     .listen((event) {
       print('Stream value: $event');
-    })
+    });
 }
 
 Stream emitNumber() async* {
