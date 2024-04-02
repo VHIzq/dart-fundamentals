@@ -10,8 +10,8 @@ void main() {
   /* final blueBettle = Hero(name: 'James', power: '280', isAlive: true);
   print(blueBettle); */
 
-  final ironman = Hero.fromJson(rawData);
-  print(ironman);
+  // final raven = Hero.fromJson(rawData);
+  // print(raven);
 }
 
 class Hero {
@@ -25,10 +25,10 @@ class Hero {
     required this.isAlive
   });
 
-  Hero.fromJson( Map<String, dynamic> json)
-    : name  = json['name'] ?? 'Not name found',
-      power = json['power'] ?? 'No power found',
-      isAlive = json['isAlive'] ?? 'Not is alive'
+  // Hero.fromJson( Map<String, dynamic> json)
+  //   : name  = json['name'] ?? 'Not name found',
+  //     power = json['power'] ?? 'No power found',
+  //     isAlive = json['isAlive'] ?? 'Not is alive'
 
 
   @override
